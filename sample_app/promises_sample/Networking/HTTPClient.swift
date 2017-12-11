@@ -16,11 +16,9 @@ class HTTPClient {
 		case parsingError(Error?)
 	}
 	
+	//singleton. In case we need to hold some state variables in here.
 	static let shared = HTTPClient()
 	
-    
-    
-    
     /// Callback based API, to be used as a generic function for all requests to the API.
     ///
     /// - Parameters:
@@ -88,6 +86,4 @@ extension HTTPClient {
 	func makeErroneousRequest() -> Promise<[Article]> {
 		return self.apiRequest(route: .error)
 	}
-	
-	
 }

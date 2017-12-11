@@ -11,7 +11,7 @@
 		0676D7C41FDA91C6006E108A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D7C31FDA91C6006E108A /* HTTPClient.swift */; };
 		0676D7C61FDA9412006E108A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D7C51FDA9412006E108A /* Router.swift */; };
 		0676D7C81FDA97AE006E108A /* PromisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D7C71FDA97AE006E108A /* PromisesViewController.swift */; };
-		0676D7F61FDACE02006E108A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D7F51FDACE02006E108A /* Util.swift */; };
+		0676D7F61FDACE02006E108A /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D7F51FDACE02006E108A /* UIKitExtensions.swift */; };
 		06F366EB1FD9DB0400D4DAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F366EA1FD9DB0400D4DAEA /* AppDelegate.swift */; };
 		06F366F01FD9DB0400D4DAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F366EE1FD9DB0400D4DAEA /* Main.storyboard */; };
 		06F366F21FD9DB0400D4DAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F366F11FD9DB0400D4DAEA /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		0676D7C31FDA91C6006E108A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		0676D7C51FDA9412006E108A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		0676D7C71FDA97AE006E108A /* PromisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromisesViewController.swift; sourceTree = "<group>"; };
-		0676D7F51FDACE02006E108A /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		0676D7F51FDACE02006E108A /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		06F366E71FD9DB0300D4DAEA /* promises_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = promises_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F366EA1FD9DB0400D4DAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06F366EF1FD9DB0400D4DAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		06C8DC961FDE87A200472C48 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				0676D7F51FDACE02006E108A /* Util.swift */,
+				0676D7F51FDACE02006E108A /* UIKitExtensions.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 				0676D7C21FDA9143006E108A /* Models.swift in Sources */,
 				0676D7C61FDA9412006E108A /* Router.swift in Sources */,
 				0676D7C41FDA91C6006E108A /* HTTPClient.swift in Sources */,
-				0676D7F61FDACE02006E108A /* Util.swift in Sources */,
+				0676D7F61FDACE02006E108A /* UIKitExtensions.swift in Sources */,
 				0676D7C81FDA97AE006E108A /* PromisesViewController.swift in Sources */,
 				06F366EB1FD9DB0400D4DAEA /* AppDelegate.swift in Sources */,
 			);
