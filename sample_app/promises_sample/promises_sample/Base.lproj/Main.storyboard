@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dBN-TW-9sq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Promises View Controller-->
+        <scene sceneID="nwB-De-pA5">
+            <objects>
+                <viewController id="dBN-TW-9sq" customClass="PromisesViewController" customModule="promises_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zRh-gh-BCV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-Nd-VsJ">
+                                <rect key="frame" x="135.5" y="60" width="103" height="30"/>
+                                <state key="normal" title="Get Categories"/>
+                                <connections>
+                                    <action selector="getCategories" destination="dBN-TW-9sq" eventType="touchUpInside" id="n8G-OJ-HT5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHv-CO-ixA">
+                                <rect key="frame" x="147" y="130" width="81" height="30"/>
+                                <state key="normal" title="Get Articles"/>
+                                <connections>
+                                    <action selector="getArticles" destination="dBN-TW-9sq" eventType="touchUpInside" id="cnD-yF-bpr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV7-1g-dvw">
+                                <rect key="frame" x="148" y="200" width="79" height="30"/>
+                                <state key="normal" title="Catch Error"/>
+                                <connections>
+                                    <action selector="catchError" destination="dBN-TW-9sq" eventType="touchUpInside" id="qMW-Bm-d3W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-nY-1oL">
+                                <rect key="frame" x="131" y="270" width="113" height="30"/>
+                                <state key="normal" title="Get every article"/>
+                                <connections>
+                                    <action selector="getAllArticlesFromAllCategories" destination="dBN-TW-9sq" eventType="touchUpInside" id="Uwp-5k-tuI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KV7-1g-dvw" firstAttribute="top" secondItem="pHv-CO-ixA" secondAttribute="bottom" constant="40" id="EcT-4h-TBy"/>
+                            <constraint firstItem="NIf-nY-1oL" firstAttribute="top" secondItem="KV7-1g-dvw" secondAttribute="bottom" constant="40" id="F8g-kS-Vi2"/>
+                            <constraint firstItem="pHv-CO-ixA" firstAttribute="centerX" secondItem="zRh-gh-BCV" secondAttribute="centerX" id="FZ9-5r-3HV"/>
+                            <constraint firstItem="NIf-nY-1oL" firstAttribute="centerX" secondItem="zRh-gh-BCV" secondAttribute="centerX" id="GV2-Zj-xh9"/>
+                            <constraint firstItem="dBg-Nd-VsJ" firstAttribute="centerX" secondItem="zRh-gh-BCV" secondAttribute="centerX" id="Qb6-Ot-eD8"/>
+                            <constraint firstItem="pHv-CO-ixA" firstAttribute="top" secondItem="dBg-Nd-VsJ" secondAttribute="bottom" constant="40" id="SxH-15-QSW"/>
+                            <constraint firstItem="KV7-1g-dvw" firstAttribute="centerX" secondItem="zRh-gh-BCV" secondAttribute="centerX" id="psX-lN-LJ4"/>
+                            <constraint firstItem="dBg-Nd-VsJ" firstAttribute="top" secondItem="ZgK-uQ-Rdx" secondAttribute="top" constant="40" id="tIa-RN-fSS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZgK-uQ-Rdx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RpG-OR-MnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303" y="107"/>
+        </scene>
+    </scenes>
+</document>
